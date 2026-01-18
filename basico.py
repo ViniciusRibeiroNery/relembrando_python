@@ -41,7 +41,19 @@ nome2 = input("Digite seu nome:")
 print("Olá", nome2)
 
 idade2 = int(input("Digite sua idade:"))
-numerodecimal = float(input("Digite um numero com virgula:"))
+
+#float só aceita numero com ponto e nao com virgula 
+numerodecimal = float(input("Digite um numero com ponto:"))
 
 print(idade2 + 1)
 print(numerodecimal)
+
+#execicio para finalizar a revisao basico do basico 
+#Pergunte o nome
+#Pergunte a idade
+#Mostre:
+
+nome_ex = input("Digite seu nome")
+idade_ex = int(input("Digite sua idade"))
+
+print("Olá ", nome_ex, " ano que vem você terá ", idade_ex + 1, " ano")
